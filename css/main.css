@@ -254,8 +254,8 @@ h3 {
   text-align: center;
   -webkit-animation: fadeInBottom 0.6s ease forwards;
           animation: fadeInBottom 0.6s ease forwards;
-  -webkit-animation-delay: 4.4s;
-          animation-delay: 4.4s;
+  -webkit-animation-delay: 4.3s;
+          animation-delay: 4.3s;
 }
 .container .result .hours {
   opacity: 0;
@@ -264,8 +264,8 @@ h3 {
   margin: -8px 0 0;
   -webkit-animation: fadeInTop 0.6s ease forwards;
           animation: fadeInTop 0.6s ease forwards;
-  -webkit-animation-delay: 4.5s;
-          animation-delay: 4.5s;
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
 }
 .container .form-lockup {
   position: absolute;
@@ -321,14 +321,14 @@ h3 {
 .container .form-lockup .input-group.hours-start {
   -webkit-animation: flyInLeft 0.6s ease forwards;
           animation: flyInLeft 0.6s ease forwards;
-  -webkit-animation-delay: 4.1s;
-          animation-delay: 4.1s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 .container .form-lockup .input-group.hours-end {
   -webkit-animation: flyInRight 0.6s ease forwards;
           animation: flyInRight 0.6s ease forwards;
-  -webkit-animation-delay: 4.2s;
-          animation-delay: 4.2s;
+  -webkit-animation-delay: 4.1s;
+          animation-delay: 4.1s;
 }
 @-webkit-keyframes popDown {
   from {
