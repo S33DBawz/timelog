@@ -187,16 +187,19 @@ body > h1 {
   left: 50%;
   top: 50%;
   color: #fff;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-animation: fadeOut 4s ease forwards;
-          animation: fadeOut 4s ease forwards;
+  -webkit-animation: fadeOut 4.4s ease forwards;
+          animation: fadeOut 4.4s ease forwards;
 }
 body > h1 span {
   opacity: 1;
   -webkit-animation: fadeInAndOut 3s linear infinite;
           animation: fadeInAndOut 3s linear infinite;
+}
+body > h1 small {
+  font-size: 18px;
+  display: block;
+  margin-left: 22px;
+  margin-top: -10px;
 }
 h1,
 h2,
@@ -254,8 +257,8 @@ h3 {
   text-align: center;
   -webkit-animation: fadeInBottom 0.6s ease forwards;
           animation: fadeInBottom 0.6s ease forwards;
-  -webkit-animation-delay: 4.3s;
-          animation-delay: 4.3s;
+  -webkit-animation-delay: 4.6s;
+          animation-delay: 4.6s;
 }
 .container .result .hours {
   opacity: 0;
@@ -264,8 +267,8 @@ h3 {
   margin: -8px 0 0;
   -webkit-animation: fadeInTop 0.6s ease forwards;
           animation: fadeInTop 0.6s ease forwards;
-  -webkit-animation-delay: 4.4s;
-          animation-delay: 4.4s;
+  -webkit-animation-delay: 4.7s;
+          animation-delay: 4.7s;
 }
 .container .form-lockup {
   position: absolute;
@@ -321,14 +324,14 @@ h3 {
 .container .form-lockup .input-group.hours-start {
   -webkit-animation: flyInLeft 0.6s ease forwards;
           animation: flyInLeft 0.6s ease forwards;
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
+  -webkit-animation-delay: 4.3s;
+          animation-delay: 4.3s;
 }
 .container .form-lockup .input-group.hours-end {
   -webkit-animation: flyInRight 0.6s ease forwards;
           animation: flyInRight 0.6s ease forwards;
-  -webkit-animation-delay: 4.1s;
-          animation-delay: 4.1s;
+  -webkit-animation-delay: 4.4s;
+          animation-delay: 4.4s;
 }
 @-webkit-keyframes popDown {
   from {
@@ -391,18 +394,18 @@ h3 {
 @-webkit-keyframes fadeOut {
   0% {
     opacity: 0;
-    -webkit-transform: translate(-50%, -70%);
-            transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%);
   }
   30% {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
   }
   80% {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
   }
   100% {
     opacity: 0;
@@ -413,18 +416,18 @@ h3 {
 @keyframes fadeOut {
   0% {
     opacity: 0;
-    -webkit-transform: translate(-50%, -70%);
-            transform: translate(-50%, -70%);
+    -webkit-transform: translate(-50%, -100%);
+            transform: translate(-50%, -100%);
   }
   30% {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
   }
   80% {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -70%);
+            transform: translate(-50%, -70%);
   }
   100% {
     opacity: 0;

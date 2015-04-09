@@ -1,21 +1,27 @@
 $(function () {
 
-	$('input[type="submit"]').on('click', function () {
+	$('#start').on('input', function () {
+		CalculateHours();
+	});
 
-		var startHour = $('#start').val(),
-			endHour = $('#end').val();
-
-		if (startHour != "" && endHour != "") {
-			var workHours = endHour - startHour,
-				workHoursMath = (Math.round( workHours * 100 )/100),
-				workHoursCompact = (workHoursMath).toFixed(1);
-			
-			$('.result').html(workHoursCompact + " Timer");
-		}
+	$('#end').on('input', function () {
+		CalculateHours();
 	});
 
 })
 
-function AnimationEnd() {
-	
+
+function CalculateHours() {
+
+	var startHour = $('#start').val(),
+		endHour = $('#end').val();
+
+	if (startHour != "" && endHour != "") {
+		var workHours = endHour - startHour - 0.50,
+			workHoursMath = (Math.round(workHours * 100) / 100),
+			result = (workHoursMath).toFixed(1);
+
+		$('.result h2').html(result);
+	}
+
 }

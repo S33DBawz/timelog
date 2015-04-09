@@ -1,1 +1,1 @@
-function AnimationEnd(){}$(function(){$('input[type="submit"]').on("click",function(){var n=$("#start").val(),t=$("#end").val();if(""!=n&&""!=t){var i=t-n,a=Math.round(100*i)/100,o=a.toFixed(1);$(".result").html(o+" Timer")}})});
+function CalculateHours(){var t=$("#start").val(),n=$("#end").val();if(""!=t&&""!=n){var u=n-t-.5,a=Math.round(100*u)/100,o=a.toFixed(1);$(".result h2").html(o)}}$(function(){$("#start").on("input",function(){CalculateHours()}),$("#end").on("input",function(){CalculateHours()})});
